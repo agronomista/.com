@@ -77,12 +77,17 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 100%; }
 body {
-  background-color: #000000;
+  background-image: url('https://github.com/agronomista/.com/blob/master/images/photo_2023-08-09_19-09-54.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-color: #000000; /* en caso de que la imagen no cubra toda la pantalla */
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+}
 
 
 /* Typography
