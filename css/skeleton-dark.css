@@ -81,14 +81,13 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  background-color: #F5F5F5; /* Color de fondo gris claro */
+  background-color: #000000; /* en caso de que la imagen no cubra toda la pantalla */
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FFFFFF;
 }
-
 
 
 /* Typography
@@ -173,4 +172,3 @@ hr {
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
-
